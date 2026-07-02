@@ -1,62 +1,200 @@
-# Ateliê de Costura Luiza Vitor
+# 🧵 Ateliê de Costura Luiza Vitor
 
-Site institucional de uma página (landing page) para o Ateliê de Costura Luiza Vitor — vestidos sob medida, ajustes, reformas e criações personalizadas.
+![Status](https://img.shields.io/badge/status-concluído-success)
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
-Desenvolvido por **Helmer Tech Solution**.
+## 🌐 Demonstração
 
-## Tecnologias
+Acesse o projeto online:
 
-- HTML5 semântico
-- CSS3 puro (sem frameworks)
-- JavaScript puro (sem bibliotecas)
-- Google Fonts: Cormorant Garamond + Montserrat
+🔗 **https://walissonpatrickhelmer.github.io/Atelie_de_Costura_Luiza_Vitor/**
 
-## Estrutura
+---
+
+# 📌 Sobre o Projeto
+
+Landing Page desenvolvida para o **Ateliê de Costura Luiza Vitor**, com o objetivo de criar uma presença digital elegante e profissional para um negócio especializado em:
+
+- 👗 Roupas sob medida
+- 🧵 Ajustes e reformas
+- ✨ Criações personalizadas
+
+O projeto foi pensado para transmitir a essência de um ateliê artesanal, valorizando:
+
+- Exclusividade
+- Sofisticação
+- Cuidado nos detalhes
+- Atendimento personalizado
+
+A identidade visual foi inspirada em marcas de moda e alta costura, utilizando um design minimalista, moderno e elegante.
+
+---
+
+# 🎯 Objetivo
+
+Criar uma página profissional para:
+
+- Apresentação dos serviços
+- Divulgação dos trabalhos realizados
+- Fortalecimento da presença digital
+- Facilitar o contato de novos clientes através do WhatsApp
+
+---
+
+# 🚀 Tecnologias Utilizadas
+
+## Front-end
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Recursos aplicados
+
+- Layout responsivo
+- Animações suaves
+- Efeitos de transição entre seções
+- Galeria de imagens
+- Menu responsivo
+- Integração com WhatsApp
+- Google Fonts
+
+---
+
+# 🎨 Design e Interface
+
+O desenvolvimento buscou criar uma experiência visual próxima de uma marca de moda premium.
+
+Características:
+
+✔ Layout clean  
+✔ Tipografia elegante  
+✔ Cores suaves inspiradas em moda e costura  
+✔ Grande destaque para imagens das peças  
+✔ Navegação simples e intuitiva  
+✔ Experiência adaptada para dispositivos móveis  
+
+---
+
+# 📂 Estrutura do Projeto
 
 ```
-atelie-luiza-vitor/
-│── index.html
-│── css/
+Atelie_de_Costura_Luiza_Vitor/
+
+│
+├── index.html
+
+├── css/
 │   └── style.css
-│── js/
+
+├── js/
 │   └── script.js
-│── img/
-│   ├── img1 (1).jpg      → detalhe de costura (hero + galeria)
-│   ├── img1 (1).png      → vestido bege
-│   ├── img1 (2).png      → vestido rosa
-│   ├── img1 (3).png      → vestido rosa/vermelho
-│   ├── img1 (4).png      → vestido verde
-│   ├── img1 (5).png      → tecido acetinado
-│   └── keli.jpeg         → foto da seção "Sobre"
+
+├── assets/
+│   └── img/
+│       ├── costura.jpg
+│       ├── vestido1.png
+│       ├── vestido2.png
+│       ├── vestido3.png
+│       ├── vestido4.png
+│       ├── vestido5.png
+│       └── jaqueline.jpeg
+
 └── README.md
 ```
 
-> Basta copiar as imagens do seu ateliê para a pasta `img/` mantendo os
-> mesmos nomes de arquivo (ou ajustar os caminhos em `index.html` caso
-> troque os nomes).
+---
 
-## Funcionalidades
+# ✨ Funcionalidades
 
-- Menu fixo com efeito de fundo ao rolar a página
-- Menu mobile (hambúrguer) responsivo
-- Parallax leve na imagem do hero
-- Animações suaves ao rolar a página (scroll reveal)
-- Galeria em grid com modal ao clicar na imagem
-- Botões de WhatsApp diretos (orçamento, atendimento e contato)
-- Ano atualizado automaticamente no rodapé
-- SEO básico (title, description, Open Graph, favicon)
+## Página Inicial
 
-## Como usar
+- Apresentação do ateliê
+- Chamada para orçamento
+- Destaque visual com imagem principal
 
-1. Coloque as imagens do ateliê dentro da pasta `img/`.
-2. Abra o `index.html` no navegador — não é necessário nenhum
-   servidor ou instalação.
-3. Para publicar no GitHub Pages: envie a pasta para um repositório
-   e ative o Pages nas configurações do repositório, apontando para
-   a branch principal.
+## Sobre
 
-## Contato do ateliê
+Apresentação da história e proposta do ateliê.
 
-- WhatsApp: (31) 99350-2765
-- Instagram: [@jaqueline.mendes](https://instagram.com/jaqueline.mendes)
-- Endereço: Rua Paulo D'Assunção, 357 — Jardim Industrial
+## Serviços
+
+Exibição dos principais serviços:
+
+- Vestidos sob medida
+- Ajustes
+- Reformas
+- Peças personalizadas
+
+## Galeria
+
+Galeria de trabalhos realizados com:
+
+- Organização em grid
+- Efeito de interação nas imagens
+- Valorização das peças produzidas
+
+## Contato
+
+Botão direto para atendimento via WhatsApp.
+
+---
+
+# 📱 Responsividade
+
+O site foi desenvolvido para funcionar corretamente em:
+
+- 💻 Desktop
+- 💻 Notebook
+- 📱 Tablet
+- 📱 Smartphone
+
+---
+
+# 🧠 Aprendizados Aplicados
+
+Durante o desenvolvimento foram aplicados conceitos de:
+
+- Estruturação semântica HTML
+- Organização de CSS
+- Responsividade
+- Experiência do usuário (UX)
+- Animações com JavaScript
+- Desenvolvimento de landing pages comerciais
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+## Walisson Patrick Helmer
+
+Desenvolvedor Front-end em formação, criando soluções digitais para negócios através de tecnologia, design e experiência do usuário.
+
+---
+
+# 🔗 Contatos
+
+🌐 Portfólio:
+https://walissonpatrickhelmer.github.io/curriculo/
+
+💼 LinkedIn:
+https://www.linkedin.com/in/walissonpatrickhelmer/
+
+💻 GitHub:
+https://github.com/WalissonPatrickHelmer
+
+📱 WhatsApp:
+(31) 99373-6336
+
+📧 Email:
+wpatrickhelmer@gmail.com
+
+---
+
+# 📄 Licença
+
+Projeto desenvolvido para fins de estudo, portfólio e apresentação profissional.
+
+© 2026 - Walisson Patrick Helmer
